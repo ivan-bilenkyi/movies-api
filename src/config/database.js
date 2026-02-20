@@ -4,7 +4,7 @@ const DB_PATH = process.env.DB_PATH;
 
 const sequelize = new Sequelize({
   dialect: 'sqlite',
-  storage: DB_PATH,
+  storage: './database.sqlite',
   logging: false,
 });
 
